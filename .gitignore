@@ -1,0 +1,11 @@
+# In this we mention about the files that we don't want to track
+
+.env
+
+# Ignores all the inner files of node_modules folder
+node_modules/  
+
+# Ignores particular file(secret.txt) of config folder
+config/secret.txt
+
+.vscode
