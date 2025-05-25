@@ -1,6 +1,6 @@
 # MasteringGit
 
-> A beginner-friendly guide to understanding and mastering Git — a powerful version control system.
+A beginner-friendly guide to understanding and mastering Git — a powerful version control system.
 
 ---
 
@@ -28,7 +28,7 @@ Commit the changes        → `git commit -m "Descriptive message"`
 
 ## Example
 
-# Step 1: Create project folder and initialize Git
+### Step 1: Create project folder and initialize Git
 
 ```bash
 mkdir hello-world
@@ -36,31 +36,36 @@ cd hello-world
 git init
 ```
 
-# Step 2: Create a file
+### Step 2: Create a file
 
 ```bash
 echo Hello, World! > hello.txt
 ```
 
-# Step 3: Check status
+### Step 3: Check status
 
 ```bash
 git status
 ```
 
-# Step 4: Add file to staging area
+### Step 4: Add file to staging area
 
+- For adding particular file
 ```bash
 git add hello.txt 
 ```
 
-# Step 5: Commit the file
+- For adding all files
+```bash
+git add .
+```
+### Step 5: Commit the file
 
 ```bash
 git commit -m "Add hello.txt with Hello World message"
 ```
 
-# Step 6 (Optional): Push to GitHub
+### Step 6 (Optional): Push to GitHub
 
 ```bash
 git remote add origin https://github.com/yourusername/hello-world.git
