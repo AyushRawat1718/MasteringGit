@@ -137,8 +137,7 @@ Using `stash` is useful when you want to update your repo but aren’t ready to 
 
 ## Key Points
 
-To check the Git commit log in a concise way, prefer this approach, as it provides a quick overview of the commits in a single line format:
-
+- To check the Git commit log in a concise way, prefer this approach, as it provides a quick overview of the commits in a single line format:
 ```bash
 git log --oneline
 ```
