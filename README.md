@@ -50,10 +50,15 @@ git status
 
 ### Step 4: Add file to staging area
 
+For adding particular file
 ```bash
 git add hello.txt
 ```
 
+For adding all files
+```bash
+git add .
+```
 ### Step 5: Commit the file
 
 ```bash
